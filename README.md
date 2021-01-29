@@ -14,4 +14,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-![Anurag's GitHub stats](https://github-readme-stats-git-master.fnsflm.vercel.app/api?username=fnsflm&show_icons=true)
+![fnsflm's GitHub stats](https://github-readme-stats-git-master.fnsflm.vercel.app/api?username=fnsflm&show_icons=true)
