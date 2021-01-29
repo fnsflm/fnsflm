@@ -20,5 +20,7 @@ jobs:
           plugin_pagespeed: yes
           plugin_pagespeed_url: https://blog.fnsflm.xyz
           plugin_pagespeed_screenshot: yes
+          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
           # languages
           plugin_languages: yes
+          plugin_languages_ignored: "HTML"
