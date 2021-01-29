@@ -1,6 +1,5 @@
-### Hi there 👋
-
 <!--
+### Hi there 👋
 **fnsflm/fnsflm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
@@ -14,4 +13,5 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-![](github-readme-stats-9vp2xzkh0.vercel.app)
+
+![Anurag's GitHub stats](https://github-readme-stats-git-master.fnsflm.vercel.app/api?username=fnsflm&show_icons=true)
