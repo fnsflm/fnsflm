@@ -17,4 +17,4 @@ Here are some ideas to get you started:
 ![fnsflm's GitHub stats](https://github-readme-stats-git-master.fnsflm.vercel.app/api?username=fnsflm&show_icons=true)
 -->
 
-
+![Metrics](https://github.com/fnsflm/fnsflm/blob/main/github-metrics.svg)
