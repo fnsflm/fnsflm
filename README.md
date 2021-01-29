@@ -12,6 +12,9 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
+
+项目: https://github.com/anuraghazra/github-readme-stats
+![fnsflm's GitHub stats](https://github-readme-stats-git-master.fnsflm.vercel.app/api?username=fnsflm&show_icons=true)
 -->
 
-![fnsflm's GitHub stats](https://github-readme-stats-git-master.fnsflm.vercel.app/api?username=fnsflm&show_icons=true)
+
