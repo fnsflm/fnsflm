@@ -16,8 +16,9 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           # GITHUB_TOKEN is a special auto-generated token restricted to current repository, which is used to push files in it
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-      - uses: lowlighter/metrics@latest
-        with:
-        # ... other options
+          # pagespeed
           plugin_pagespeed: yes
-          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
+          plugin_pagespeed_url: https://blog.fnsflm.xyz
+          plugin_pagespeed_screenshot: yes
+          # languages
+          plugin_languages: yes
