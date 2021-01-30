@@ -18,7 +18,7 @@ jobs:
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           # pagespeed
           plugin_pagespeed: yes
-          plugin_pagespeed_url: http://blog.fnsflm.xyz
+          plugin_pagespeed_url: https://fnsflm.xyz
           plugin_pagespeed_screenshot: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
           # languages
