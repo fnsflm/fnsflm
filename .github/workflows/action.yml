@@ -30,10 +30,10 @@ jobs:
           plugin_languages_ignored: "HTML"
           
           # pagespeed
-          plugin_pagespeed: yes
-          plugin_pagespeed_url: https://fnsflm.xyz
-          plugin_pagespeed_screenshot: yes
-          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
+          # plugin_pagespeed: yes
+          # plugin_pagespeed_url: https://fnsflm.xyz
+          # plugin_pagespeed_screenshot: yes
+          # plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
       - name: page-test
         uses: fnsflm/metrics@latest
         with:
