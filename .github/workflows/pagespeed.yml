@@ -2,6 +2,8 @@ name: page-test
 on:
   # Lines below let you run workflow manually and on each commit
   push: {branches: ["master", "main"]}
+  pull_request:
+  workflow_dispatch:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
