@@ -1,7 +1,5 @@
 name: Metrics
 on:
-  # Schedule updates
-  schedule: [{cron: "0 0 * * *"}]
   # Lines below let you run workflow manually and on each commit
   push: {branches: ["master", "main"]}
   workflow_dispatch:
@@ -34,14 +32,3 @@ jobs:
           # plugin_pagespeed_url: https://fnsflm.xyz
           # plugin_pagespeed_screenshot: yes
           # plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
-      - name: page-test
-        uses: fnsflm/metrics@latest
-        with:
-          filename: pagespeed.svg
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          token: ${{ secrets.METRICS_TOKEN }}
-          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
-          base: ""
-          plugin_pagespeed: yes
-          plugin_pagespeed_url: https://fnsflm.xyz
-          plugin_pagespeed_screenshot: yes
