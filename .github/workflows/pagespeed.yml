@@ -6,13 +6,13 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      uses: fnsflm/metrics@latest
-      with:
-        filename: pagespeed.svg
-        committer_token: ${{ secrets.GITHUB_TOKEN }}
-        token: ${{ secrets.METRICS_TOKEN }}
-        plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
-        base: ""
-        plugin_pagespeed: yes
-        plugin_pagespeed_url: https://fnsflm.xyz
-        plugin_pagespeed_screenshot: yes
+      - uses: fnsflm/metrics@latest
+        with:
+          filename: pagespeed.svg
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
+          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
+          base: ""
+          plugin_pagespeed: yes
+          plugin_pagespeed_url: https://fnsflm.xyz
+          plugin_pagespeed_screenshot: yes
