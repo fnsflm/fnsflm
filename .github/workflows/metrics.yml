@@ -5,7 +5,8 @@ on:
   workflow_dispatch:
 jobs:
   github-metrics:
-    runs-on: ubuntu-latest
+    # runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       # See action.yml for all options
       - uses: fnsflm/metrics@latest
